@@ -36,4 +36,12 @@ result = my_val1 && my_val2;
 end
   
 endmodule
-
+/*
+Output:
+# MON my_val1=111, my_val2=0000, result=0
+# MON my_val1=111, my_val2=0000, result=1
+# MON my_val1=111, my_val2=0000, result=0
+# MON my_val1=111, my_val2=0000, result=1
+# MON my_val1=z0x, my_val2=0000, result=x
+# MON my_val1=z0x, my_val2=0000, result=0
+*/
