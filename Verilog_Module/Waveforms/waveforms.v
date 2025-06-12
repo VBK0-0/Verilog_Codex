@@ -1,5 +1,5 @@
 `timescale 1us/1ns
-
+// `timescale <time_unit>/<time_precision>
 module waveforms(
 	// no inputs here 
 	);
