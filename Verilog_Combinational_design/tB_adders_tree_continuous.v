@@ -1,5 +1,5 @@
 `timescale 1us/1ns
-module tB_adders_tree();
+module tB_adders_tree_continuous();
 	
    reg [3:0] a, b;
    reg [7:0] c, d;
@@ -8,7 +8,7 @@ module tB_adders_tree();
    wire [9:0] sum3;
 	
     // Instantiate the DUT
-    adders_tree ADD(
+    adders_tree_continuous ADD(
        .a(a),
        .b(b),
        .c(c),
