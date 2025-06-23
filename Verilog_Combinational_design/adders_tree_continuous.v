@@ -1,4 +1,4 @@
-module adders_tree(
+module adders_tree_continuous(
 	input [3:0] a,
 	input [3:0] b,
 	input [7:0] c,
