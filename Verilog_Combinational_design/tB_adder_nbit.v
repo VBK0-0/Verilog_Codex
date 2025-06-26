@@ -35,3 +35,8 @@ Output:
 #                    4 a =   33, b =   47, sum =   80
 #                    5 a =  100, b =   47, sum =  147
 */
+
+/*
+The parameter value N=3 is override by the testbench when the adder_nbit is instantiated. The default value of N = 3 is replaced 
+with ADDER_WIDTH = 10 in the testbench at compile time. 
+This is done explicitly to show how a Verilog parameterizable module can be used.
