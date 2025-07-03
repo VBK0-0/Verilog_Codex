@@ -29,7 +29,7 @@ module ALU
 		y = 0; carry_out = 0; borrow = 0; invalid_op = 0;
 		case (opcode)
 			OP_ADD		   : begin y = a + b; end
-			OP_ADD_CARRY   : begin {carry_out, y} = a + b + carry_in; end
+			OP_ADD_CARRY       : begin {carry_out, y} = a + b + carry_in; end
 			OP_SUB		   : begin {borrow, y} = a - b; end
 			OP_INC   	   : begin {carry_out, y} = a + 1'b1; end
 			OP_DEC		   : begin {borrow, y} = a - 1'b1; end
