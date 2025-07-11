@@ -29,15 +29,18 @@ module tB_d_ff_rstn();
 		reset_n = 0; d = 0;
 			for (i=0; i<5; i=i+1) begin
 				delay = $random+1;
+				// delay = $urandom_range(1,3);
 				#(delay) d = ~d;
 			end
 			
 			reset_n = 1;
 			for (i=0; i<5; i= i+1) begin
 				delay = $random+1;
+				// delay = $urandom_range(1,3);
 				#(delay) d = ~d; // toggle the FF at random timescale
 			end
-			
+		
+		// d = 1'b1; //To make sure D is set
 		#(0.2); reset_n = 0; // reset the FF again
 	end
 			
@@ -47,5 +50,3 @@ module tB_d_ff_rstn();
 	end
 			
 endmodule
-			
-	
