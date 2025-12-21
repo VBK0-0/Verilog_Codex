@@ -45,4 +45,27 @@ module tB_counter_up_down_load_nbit();
 		#20 $stop;
 	end
 endmodule
+
+/*
+#                    0 load_en = x, up_down = x, counter_in = x, counter_out = x
+#                    1 load_en = 0, up_down = 0, counter_in = 0, counter_out = 0
+#                    3 load_en = 0, up_down = 0, counter_in = 0, counter_out = 7
+#                    4 load_en = 0, up_down = 0, counter_in = 0, counter_out = 6
+#                    5 load_en = 1, up_down = 0, counter_in = 3, counter_out = 5
+#                    6 load_en = 0, up_down = 1, counter_in = 3, counter_out = 3
+#                    7 load_en = 0, up_down = 1, counter_in = 3, counter_out = 4
+#                    8 load_en = 0, up_down = 1, counter_in = 3, counter_out = 5
+#                    9 load_en = 0, up_down = 1, counter_in = 3, counter_out = 6
+#                   10 load_en = 0, up_down = 1, counter_in = 3, counter_out = 7
+#                   11 load_en = 0, up_down = 0, counter_in = 3, counter_out = 0
+#                   12 load_en = 0, up_down = 0, counter_in = 3, counter_out = 7
+#                   13 load_en = 0, up_down = 0, counter_in = 3, counter_out = 6
+#                   14 load_en = 0, up_down = 0, counter_in = 3, counter_out = 5
+#                   15 load_en = 0, up_down = 0, counter_in = 3, counter_out = 4
+#                   16 load_en = 0, up_down = 0, counter_in = 3, counter_out = 3
+#                   17 load_en = 0, up_down = 0, counter_in = 3, counter_out = 2
+#                   18 load_en = 0, up_down = 0, counter_in = 3, counter_out = 1
+#                   19 load_en = 0, up_down = 0, counter_in = 3, counter_out = 0
+#                   20 load_en = 0, up_down = 0, counter_in = 3, counter_out = 7	
+*/
 		
