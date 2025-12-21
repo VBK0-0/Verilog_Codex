@@ -28,4 +28,27 @@ module tB_counter_nbit();
 		#20 $stop;		   // stop the sim
 	end
 	
+
 endmodule
+
+/*
+#                    1counter = 0
+#                    3counter = 1
+#                    4counter = 2
+#                    5counter = 3
+#                    6counter = 4
+#                    7counter = 5
+#                    8counter = 6
+#                    9counter = 7
+#                   10counter = 0
+#                   11counter = 1
+#                   12counter = 2
+#                   13counter = 3
+#                   14counter = 4
+#                   15counter = 5
+#                   16counter = 6
+#                   17counter = 7
+#                   18counter = 0
+#                   19counter = 1
+#                   20counter = 2
+*/
