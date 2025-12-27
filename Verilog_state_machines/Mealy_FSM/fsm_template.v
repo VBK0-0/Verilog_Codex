@@ -6,7 +6,7 @@ module fsm_template(
 	parameter [WIDTH-1:0] STATE1 = value_1,
 	                      STATE2 = value_2,
 						  ....
-					      STATEn = valuen;					
+					      STATEn = value_n;					
 					
 	// Declare the logic for the state machine
 	reg [WIDTH-1:0] state, next_state;	
